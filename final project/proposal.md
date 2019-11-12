@@ -16,9 +16,9 @@ I believe the model can be used to make each post efficient on social media is v
 Data to be Used
 The first data set that will be used for this research comes from UCI repository http://archive.ics.uci.edu/ml/datasets/Facebook+metrics# The data set is a csv file, and it can be easily loaded into python by simple one line of code.This data set is about a renowned cosmetic brand product on a Facebook page, and it is used to generate the observable pattern and visualization.
 
-For the second of the data, I aim to use it to testify the correction of the model which was created by previous visualization. Based on this needs, I plan to either web clip the information on the Facebook or the open api.
+For the second of the data, I aim to use it to testify the correction of the model which was created by previous visualization. In this sense, it can be considered as a validation set. Based on this needs, I plan to either web clip the information on the Facebook or the open api. Also, to deal with natural language from web. 
 
-If both goals can be served, and there is enough time to work. The potential third source can also be introduced, and it will be a slight different social media such as YouTube or Twitter. The similar mechanism of second data set, such as web clipping or using api, will also be used to collect the data.
+If both goals can be served, and there is enough time to work. The potential third source can also be introduced, and it will be a slight different social media such as YouTube or Twitter. The similar mechanism of second data set, such as web clipping or using api, will also be used to collect the data. This time, the validation set is used to verify this common correlation existing in other social media.
 
 ## Approach
 The first data set can be stored in data frame by using the built-in read csv function. For this data set, I plan to generate descriptive statistics for the exploratory data analysis. For example, I will generate the bar chat to compare the difference between paid advertisement and free product page. Also, multi-correlation will be checked between these attributes. And after these processes, I will use the regression method for modeling to create a model.
@@ -32,4 +32,4 @@ Only when other Facebook data test is proved true and there will be enough time 
 
 2 link: https://www.lyfemarketing.com/blog/social-media-marketing-statistics/
 
-​
+
