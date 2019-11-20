@@ -1,31 +1,33 @@
 
 ### DAV 5400 Final Project Proposal
-#### Team member: Zhihong Zhang.
-## Introduction
-Nowadays, social media plays a crucial role in our daily life. Based on one of the recent statistics, 79% of American internet users are on Facebook. Along with this fact, there is also an enlarging need for advertisement and commercial marketing on social media.88% of social marketers said that it’s important for their brands to provide customer service through social media.
+#### Team member: Zhihong Zhang
+## Introduction 
+Social media plays a crucial role in our daily life.  Along with this fact, there is also an enlarging need for advertisement and commercial marketing on social media. In addition, according to an online survey, 88% of social marketers said that it is important for their brands to provide customer service through social media. 
 
-Since the Facebook is one of the most influential social media nowadays, this research will focus on the product advertisement on Facebook. Ideally, the research can find some interesting patterns and it can be generalized into other social medial platforms.
+Based on one of the recent statistics, 79% of American internet users are utilizing  Facebook, and it suggested that the Facebook is one of the most influential social media platform. As a result,  this research will focus on the product advertisement on Facebook. Ideally, this research can create a suitable model via patterns found in the customer advertisement data and the model can be generalized into other social medial platforms.
 
 ## Research Questions
-The main question I have for this research will be the correlation between different variables within a Facebook product page. For example, how the interaction between users and post impact the product brand building. Other questions raised will also be based on the main question, and the focus is to find the main factors affecting marketing efficiency.
+The main question I have for this research will be the correlation between different variables within a Facebook product page. For example, how the interaction between users and their posts may impact the builds of the product brand . Other questions raised will also be based on this main question, and the focus is to find the main factors affecting marketing efficiency.
 
-After finding the pattern of the data set, I would like to validate generalization of the model by using other data collected from web.
+After finding the pattern of the data set, I would like to validate the the model by using other data derived by my later texting mining process .
 
-I believe the model can be used to make each post efficient on social media is very beneficial for the advertisement.It not only can reduce the unnecessary cost on advertisement but it also can help different brands to efficiently communicate with the customers.In general, it is an optimization process of the advertisement.
+I believe the model can be used to increase the efficiency of social media advertising. It not only may reduce the unnecessary costs on advertisement and  may help different brands to effectively communicate with customers. In other words, the model will serve as an optimization process for advertising.
 
-Data to be Used
-The first data set that will be used for this research comes from UCI repository http://archive.ics.uci.edu/ml/datasets/Facebook+metrics# The data set is a csv file, and it can be easily loaded into python by simple one line of code.  This data set is about a renowned cosmetic brand product on a Facebook page, and it is used to generate the observable pattern and visualization.
+## Data to be Used
+The initial data set that will be used for this research comes from the  UCI repository http://archive.ics.uci.edu/ml/datasets/Facebook+metrics# . The data set is a csv format file which can be easily loaded into Python by utilizing the pandas package.  This data set addresses a popular cosmetic brand product on a Facebook page, and it will be used to generate the observable pattern and visualizations.
 
-For the second of the data, I aim to use it to testify the correction of the model which was created by previous visualization. Based on this needs, I plan to either web clip the information on the Facebook or the open api.
+The second source of the data will be used to confirm the correction of the model created by the previous data set visualization. Based on this needs, I plan to either web clip the information on the Facebook or use the open api.
 
-If both goals can be served, and there is enough time to work. The potential third source can also be introduced, and it will be a slight different social media such as YouTube or Twitter. The similar mechanism of second data set, such as web clipping or using api, will also be used to collect the data.
+The potential third source of data can also be introduced, and may be a slight different social media platform such as YouTube or Twitter. The data will be treated in the similar manner using text mining or api.
 
 ## Approach
-The first data set can be stored in a data frame by using the built-in read csv function. For this data set, I plan to generate descriptive statistics for the exploratory data analysis. For example, I will generate the bar chat to compare the difference between paid advertisement and free product page. Also, multi-correlation will be checked between these attributes. And after these processes, I will use the regression method for modeling to create a model.
+The first data set can be stored in a data frame by using built-in read csv function. For this data set, I plan to generate descriptive statistics for the exploratory data analysis. For example, I will generate bar charts to compare the difference between paid advertisements page and free product page. Also, multi-correlation will be checked between data attributes. After a series of procedures, I will use the regression method to create a generalized model. During this part of visualization, I plan to use ggplot package to make the plot. 
 
-After analyzing the pattern of this data set, I would like to check whether it is a general pattern of the social media advertisement.In specific, I plan to see how like function affect the effect of advertisement and how customer reacts to that. The other data that can be directly derived from the web using API or texting processing through python. This data mainly is used to testify the generalization of the model. If the new product on Facebook can be generalized based on the first model. For example, the 80% more of new testing product data fall within prediction line.
+After analyzing the pattern of the initial data set, there will be a check to determine whether or not it is a general pattern of the social media advertisement. Specifically, I plan to observe how the Like button impact on the interaction between advertising and buying trend. The other data that can be directly derived from the web using API or texting processing through Python. To collect text messages, NLTK package will be employed for natural language processing. 
 
-Only when other Facebook data test is proved true and there will be enough time left, an extra testing will be used to testify the generalization in other social media platform. Also, the similar mechanism from second data set will be used.
+During the validation process of the second or third data source,  if the 80% more of new testing product data falls within the prediction line, the model derived from the first data set is considered to be valid. 
+
+
 
 ## Reference
 1 link: https://sproutsocial.com/insights/social-media-statistics/
