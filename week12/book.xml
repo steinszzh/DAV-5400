@@ -1,0 +1,24 @@
+<books>
+   <book id="b1">
+     <Title>The Elements of Statistical Learning Data Mining, Inference, and Prediction</Title>
+     <Author>Trevor Hastie,Robert Tibshirani,Jerome Friedman</Author>
+     <ISBN>978-1-4899-0519-2</ISBN>
+     <Price>73.38</Price>
+     <Edition>2nd edition</Edition>
+
+   </book> 
+   <book id="b2">
+     <Title>Pattern Recognition and Machine Learning</Title>
+     <Author>Christopher M. Bishop </Author>
+     <ISBN>978-0387310732</ISBN>
+     <Price>57.7</Price>
+     <Edition>1st edition</Edition>
+   </book>
+   <book id="b3">
+     <Title>Machine Learning A Probabilistic Perspective</Title>
+     <Author>Kevin P. Murphy</Author>
+     <ISBN>978-0262018029</ISBN>
+     <Price>68.3</Price>
+     <Edition>1st edition</Edition>
+   </book> 
+</books>
